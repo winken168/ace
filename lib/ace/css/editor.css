@@ -157,12 +157,13 @@
     white-space: pre!important;
 }
 .ace_text-input.ace_composition {
-    background: inherit;
+    background: transparent;
     color: inherit;
     z-index: 1000;
     opacity: 1;
     text-indent: 0;
 }
+.ace_composition_placeholder { color: transparent }
 [ace_nocontext=true] {
     transform: none!important;
     filter: none!important;
